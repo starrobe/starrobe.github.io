@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://starrobe.cn/</id>
+    <title>镜花水月</title>
+    <updated>2023-08-24T14:49:19.006Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name/>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://starrobe.cn/"/>
+    <link rel="self" href="https://starrobe.cn/feed.atom"/>
+    <logo>https://starrobe.oss-cn-beijing.aliyuncs.com/avatar/blog/daily.png</logo>
+    <icon>https://starrobe.cn/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2023 © </rights>
+    <entry>
+        <title type="html"><![CDATA[补数与补码]]></title>
+        <id>https://starrobe.cn/posts/complement</id>
+        <link href="https://starrobe.cn/posts/complement"/>
+        <updated>2023-01-15T17:13:28.000Z</updated>
+        <content type="html"><![CDATA[<p>始于《C++ Primer》中对超出无符号数范围的数的转换，转为无符号数后值为<code>{num} mod {count}</code>，<br>
+<code>{num}</code>即为原来的数，<code>{count}</code>为无符号数据类型可代表的数的总和</p>
+]]></content>
+        <author>
+            <name/>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-08-24T14:48:31.329Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++并发]]></title>
+        <id>https://starrobe.cn/posts/cplusplus-concurrency</id>
+        <link href="https://starrobe.cn/posts/cplusplus-concurrency"/>
+        <updated>2023-07-24T11:18:24.000Z</updated>
+        <content type="html"><![CDATA[<p>参考自《C++ Concurrency In Action》</p>
+<ul>
+<li>作者：Anthony Williams</li>
+<li>译者：[xiaoweiChen](<a href="https://github.com/xiaowei">https://github.com/xiaowei</a></li>
+</ul>
+]]></content>
+        <author>
+            <name/>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-08-24T14:48:31.329Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Effective C++]]></title>
+        <id>https://starrobe.cn/posts/effective-cplusplus</id>
+        <link href="https://starrobe.cn/posts/effective-cplusplus"/>
+        <updated>2023-05-18T17:33:27.000Z</updated>
+        <content type="html"><![CDATA[<h3>习惯C++</h3>
+<h4>条款01：视C++为一个语言联邦</h4>
+<p>C++高效编程守则视状况而变化，取决使用的是C++的哪一部分</p>
+<ul>
+<li>C</li>
+<li>Object-Oriented C++</li>
+<li>Templ</li>
+</ul>
+]]></content>
+        <author>
+            <name/>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-08-24T14:48:31.329Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Effective Modern C++]]></title>
+        <id>https://starrobe.cn/posts/effective-modern-cplusplus</id>
+        <link href="https://starrobe.cn/posts/effective-modern-cplusplus"/>
+        <updated>2023-06-18T17:33:27.000Z</updated>
+        <content type="html"><![CDATA[<h3>CHAPTER 1 Deducing Types</h3>
+<h4>条款1 理解模板类型推导</h4>
+<pre><code class="language-cpp">template&lt;typename T&gt;
+// 此处ParamType泛指param的</code></pre>
+]]></content>
+        <author>
+            <name/>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-08-24T14:48:31.329Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git学习记录]]></title>
+        <id>https://starrobe.cn/posts/git-learning</id>
+        <link href="https://starrobe.cn/posts/git-learning"/>
+        <updated>2023-02-03T21:35:39.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>git官网书籍<a href="https://git-scm.com/book/zh/v2">《Pro Git》</a></p>
+</blockquote>
+<h2>目录</h2>
+<ul>
+<li>基础
+<ul>
+<li>更新与提交：add, status, diff, co</li>
+</ul>
+</li>
+</ul>
+]]></content>
+        <author>
+            <name/>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-08-24T14:48:31.329Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[无锁的线程安全栈]]></title>
+        <id>https://starrobe.cn/posts/lock-free-stack</id>
+        <link href="https://starrobe.cn/posts/lock-free-stack"/>
+        <updated>2023-08-13T20:55:23.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>选自《C++ Concurrency In Action》7.2.4</p>
+</blockquote>
+<h3>数据结构</h3>
+<pre><code class="language-cpp">template &lt;typename T&gt;
+class LockFreeStack {
+</code></pre>
+]]></content>
+        <author>
+            <name/>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-08-24T14:48:31.329Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nvim快捷键]]></title>
+        <id>https://starrobe.cn/posts/memorandum-nvim</id>
+        <link href="https://starrobe.cn/posts/memorandum-nvim"/>
+        <updated>2023-06-22T18:02:30.000Z</updated>
+        <content type="html"><![CDATA[<table>
+<thead>
+<tr>
+<th style="text-align:center">操作</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>&lt;C-f&gt;</code></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+]]></content>
+        <author>
+            <name/>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-08-24T14:48:31.329Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MESI协议以及内存屏障]]></title>
+        <id>https://starrobe.cn/posts/mesi</id>
+        <link href="https://starrobe.cn/posts/mesi"/>
+        <updated>2023-08-10T12:11:41.000Z</updated>
+        <content type="html"><![CDATA[<h3>缓存一致性</h3>
+<p>由于L1/L2 Cache是多个核心各自独有的，会带来缓存一致性的问题</p>
+<blockquote>
+<p>CPU Cache是由多个Cache Line组成，Cache Line也是CPU从内存读取数据的</p>
+</blockquote>
+]]></content>
+        <author>
+            <name/>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-08-24T14:48:31.329Z</published>
+    </entry>
+</feed>

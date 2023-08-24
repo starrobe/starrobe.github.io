@@ -1,0 +1,1 @@
+import{f as e,ar as a,l as s,o as t,c as l,j as i,as as r}from"./app-2781ddff.js";const f=e({__name:"YunWaline",setup(p){if(a(r))throw new Error("Please install valaxy-addon-waline");const n=(void 0)();return(c,d)=>{const o=s("WalineClient");return t(),l(o,{w:"full",options:i(n).options},null,8,["options"])}}});export{f as default};
